@@ -1,3 +1,7 @@
+.footer{
+    color: $footer-text;
+}
+
 .social, .legal{
     text-align: center;
     margin: 2em 0;
@@ -5,6 +9,7 @@
 
 .legal{
     font-size: 0.8em;
+    margin-bottom: 0;
 }
 
 .pixel-heart{
@@ -14,7 +19,7 @@
 
 .social-link{
     font-size: 3em;
-    margin-right: 2em;
+    margin-right: 0.5em;
     display: inline-block;
 
     &:last-child{

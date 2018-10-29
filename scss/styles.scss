@@ -48,5 +48,20 @@ a{
     }
 }
 
+#wrapper{
+    position: absolute;
+    width: $width;
+    max-width: $max-width;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
 @import "space";
+@import "banner";
+@import "main";
 @import "footer";

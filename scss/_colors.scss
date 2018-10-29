@@ -1,5 +1,5 @@
 $blue: rgb(0, 80, 200);
-$website: rgb(50, 50, 50);
+$website: black;
 $facebook: #3B5998;
 $linkedin: #0077B5;
 $github: #24292E;
@@ -8,7 +8,14 @@ $github: #24292E;
 $text-shadow: black;
 $link: darken($blue, 10%);
 $link-hover: lighten($link, 25%);
+$background-light: white;
+$background-dark: rgb(210, 210, 210);
 
 /*--- Banner ---*/
 $banner-text: white;
 $banner-edge: black;
+$banner-background-light: rgb(50, 50, 50);
+$banner-background-dark: rgb(20, 20, 20);
+
+/*--- Footer ---*/
+$footer-text: white;
