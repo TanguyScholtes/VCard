@@ -21,12 +21,12 @@
     <div class="twinkling"></div>
     <div class="clouds"></div>
 
-    <div id="wrapper">
+    <div id="wrapper" class="vcard h-card" itemscope itemtype="http://schema.org/Person">
         <header class="banner">
-            <img src="img/Tanguy_Scholtes.png" class="mugshot" />
+            <img itemprop="image" src="img/Tanguy_Scholtes.png" class="mugshot u-photo" />
             <div class="banner-content">
-                <h1 class="site-title">Tanguy Scholtes</h1>
-                <p class="site-subtitle">Web developer</p>
+                <h1 class="site-title p-name" itemprop="name"><span class="p-given-name">Tanguy</span> <span class="p-family-name">Scholtes</span></h1>
+                <p class="site-subtitle p-job-title" itemprop="jobTitle">Web developer</p>
 
                 <div class="social">
                     <a target="_blank" href="http://tanguyscholtes.be" class="social-link"><span class="fas fa-globe portfolio"></span></a>
@@ -38,12 +38,12 @@
         </header>
 
         <main class="main">
-            <p>Né le 24 Octobre 1992 à Liège</p>
+            <p>Né le <span itemprop="birthDate" class="dt-anniversary">24 Octobre 1992</span> à <span itemprop="birthPlace">Liège</span>, <span itemprop="nationality">BE</span></p>
             <p>Célibataire</p>
-            <p><a href="https://goo.gl/maps/W5D4ZyqjNhS2" target="_blank">Rue Piretfontaine 50/1, 4140 Dolembreux <span class="uppercase">Belgique</span></a></p>
-            <p><a href="tel:0032497234067">+32 (0)497 23 40 67</a></p>
-            <p><a href="mailto:tanguy.scholtes@gmail.com">tanguy.scholtes@gmail.com</a></p>
-            <p><a href="http://tanguyscholtes.be">http://tanguyscholtes.be</a></p>
+            <p><a href="https://goo.gl/maps/W5D4ZyqjNhS2" target="_blank" class="p-adr"><span itemprop="streetAddress" class="p-street-address">Rue Piretfontaine 50/1</span>, <span itemprop="postalCode" class="p-postal-code">4140</span> <span itemprop="addressLocality" class="p-locality">Sprimont</span> <span class="uppercase p-country-name" itemprop="addressCountry">Belgique</span></a></p>
+            <p><a itemprop="telephone" class="p-tel" href="tel:0032497234067">+32 (0)497 23 40 67</a></p>
+            <p><a itemprop="email" class="u-email" href="mailto:tanguy.scholtes@gmail.com">tanguy.scholtes@gmail.com</a></p>
+            <p><a itemprop="url" class="u-url" href="http://tanguyscholtes.be">http://tanguyscholtes.be</a></p>
         </main>
 
         <footer class="footer">
