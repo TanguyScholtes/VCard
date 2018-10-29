@@ -1,0 +1,52 @@
+/* ------------ External Imports ------------ */
+@import "normalize";
+
+/*------- Variables -------*/
+@import "variables";
+
+/* ------- Colors ------- */
+@import "colors";
+
+/* ------- Fonts ------- */
+@import "fonts";
+
+/* ------- Animations ------- */
+@import "animations";
+
+/* ------- General Styles -------*/
+body{
+    font-size: $base-text-size;
+    font-family: "Open Sans", sans-serif;
+}
+
+h1{
+    font-family: "Dragonforce", sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: "Amaranth", sans-serif;
+}
+
+.hide{
+    font-size: 0;
+    height: 0;
+    width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+a{
+    color: $link;
+    transition: color 500ms ease;
+    &:hover, &:focus{
+        color: $link-hover;
+        transition: color 500ms ease;
+    }
+}
+
+@import "space";
+@import "footer";
