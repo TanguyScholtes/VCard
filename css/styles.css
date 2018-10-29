@@ -769,11 +769,11 @@ body {
 }
 
 .social-link:hover, .social-link:focus {
-  -webkit-animation: vacuum 1s ease infinite both;
-  -moz-animation: vacuum 1s ease infinite both;
-  -o-animation: vacuum 1s ease infinite both;
-  -ms-animation: vacuum 1s ease infinite both;
-  animation: vacuum 1s ease infinite both;
+  -webkit-animation: pulse 1s ease alternate infinite both;
+  -moz-animation: pulse 1s ease alternate infinite both;
+  -o-animation: pulse 1s ease alternate infinite both;
+  -ms-animation: pulse 1s ease alternate infinite both;
+  animation: pulse 1s ease alternate infinite both;
 }
 
 .portfolio, .portfolio:focus, .portfolio:hover {
